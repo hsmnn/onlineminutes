@@ -1,0 +1,24 @@
+@import "../utils/var.scss";
+.navbar {
+    display: flex;
+    width: 100%;
+    height: 50px;
+    background-color: $primary-color;
+    justify-content: center;
+    &__links {
+        display: flex;
+        max-width: 65%;
+        width: 100%;
+        justify-content: start;
+        align-items: center;
+        &--link {
+            color: $secondary-color;
+            text-decoration: none;
+            margin-right: 20px;
+            transition: color 0.08s ease-out 0.08s;
+            &:hover {
+                color: $secondary-light;
+            }
+        }
+    }
+}
