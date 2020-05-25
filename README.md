@@ -16,15 +16,15 @@ User class :
 - Username -> string
 - Email address -> string
 - Password -> string
-create, update, delete, show
+- create, update, delete, show
 
 Minute class :
 - Title -> text
 - Rows
-create, update, delete, show, export
+- create, update, delete, show, export
 
 Row class :
 - Subject -> text
 - Discussion -> text
 - Decision -> text
-create, update, delete, show
+- create, update, delete, show
