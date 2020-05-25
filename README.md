@@ -1,24 +1,30 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Navigation bar when not logged on :
+OnlineMinutes Home About Signin Login
 
-Things you may want to cover:
+Navigation bar when logged on :
+OnlineMinutes Home About YourMinutes NewMinutes Logout
 
-* Ruby version
+Display minutes :
+Minute Title
+Subjet  Discussion  Decision
++ add row
+-> export
 
-* System dependencies
+User class :
+- Username -> string
+- Email address -> string
+- Password -> string
+create, update, delete, show
 
-* Configuration
+Minute class :
+- Title -> text
+- Rows
+create, update, delete, show, export
 
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+Row class :
+- Subject -> text
+- Discussion -> text
+- Decision -> text
+create, update, delete, show
