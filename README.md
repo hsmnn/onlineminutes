@@ -7,10 +7,10 @@ Navigation bar when logged on :
 OnlineMinutes Home About YourMinutes NewMinutes Logout
 
 Display minutes :
-Minute Title
-Subjet  Discussion  Decision
-+ add row
--> export
+- Minute Title
+- Subjet | Discussion | Decision
+- add row
+- export
 
 User class :
 - Username -> string
